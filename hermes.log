@@ -81,3 +81,69 @@ HERMES is now initialized and ready to be used.
 
 1740143408.892969:         hermes.init:      INFO | -- Step 2 of 7: Configure HERMES behaviour --
 1740143408.893037:         hermes.init:      INFO | When should the automated HERMES process start?
+1740143711.494157:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='harvest', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.harvest.base.HermesHarvestCommand object at 0x7f5a47c7ee30>)
+1740143711.494381:          hermes.cli:     DEBUG | Loading settings...
+1740143711.495374:          hermes.cli:     DEBUG | Update settings from command line...
+1740143711.495425:          hermes.cli:      INFO | Run subcommand harvest
+1740143711.637912:           audit.cff:      INFO | - Found valid Citation File Format file at: CITATION.cff
+1740143712.117012:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='process', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.process.base.HermesProcessCommand object at 0x7f6c4e9777f0>)
+1740143712.117245:          hermes.cli:     DEBUG | Loading settings...
+1740143712.118543:          hermes.cli:     DEBUG | Update settings from command line...
+1740143712.118593:          hermes.cli:      INFO | Run subcommand process
+1740143712.118756:      hermes.process:      INFO | ## Process data from cff
+1740143712.119476:   hermes.model.path:     DEBUG | @context: 'Key @type not in @context.'
+1740143712.119724:   hermes.model.path:     DEBUG | @type: 'Key @type not in @type.'
+1740143712.120047:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author.
+1740143712.120214:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].
+1740143712.120424:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].@type.
+1740143712.120752:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].familyName.
+1740143712.121066:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].givenName.
+1740143712.121317:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from license.
+1740143712.121525:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from name.
+1740143712.121919:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from @context.
+1740143712.122205:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from @type.
+1740143712.624273:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='curate', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.curate.base.HermesCurateCommand object at 0x7f645e42f850>)
+1740143712.624458:          hermes.cli:     DEBUG | Loading settings...
+1740143712.625358:          hermes.cli:     DEBUG | Update settings from command line...
+1740143712.625405:          hermes.cli:      INFO | Run subcommand curate
+1740143712.625494:       hermes.curate:      INFO | # Metadata curation
+1740143796.650656:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='deposit', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[['invenio_rdm.auth_token', 'CWRQGgEkYZWxk4YSDZc36jfwFGcYZhLgQKB1LNkO1SwW4t9tNBVaIQGawNoN']], file=[['showcase.zip'], ['README.md']], initial=True, command=<hermes.commands.deposit.base.HermesDepositCommand object at 0x7f7c21c3fa60>)
+1740143796.650810:          hermes.cli:     DEBUG | Loading settings...
+1740143796.651705:          hermes.cli:     DEBUG | Update settings from command line...
+1740143796.651760:          hermes.cli:      INFO | Run subcommand deposit
+1740143796.652023:   hermes.model.path:     DEBUG | codemeta: 'Key @type not in codemeta.'
+1740143796.652768:   hermes.model.path:     DEBUG | codemeta.identifier: 'Key @type not in codemeta.identifier.'
+1740143796.652833:   hermes.model.path:     DEBUG | codemeta: 'Key @type not in codemeta.'
+1740143796.653055:   hermes.model.path:     DEBUG | codemeta: 'Key @type not in codemeta.'
+1740143796.653231:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143796.653397:   hermes.model.path:     DEBUG | deposit.invenio_rdm: 'Key @type not in deposit.invenio_rdm.'
+1740143796.653432:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143796.653608:   hermes.model.path:     DEBUG | deposit.invenio_rdm.latestRecord: 'Key @type not in deposit.invenio_rdm.latestRecord.'
+1740143796.653652:   hermes.model.path:     DEBUG | deposit.invenio_rdm: 'Key @type not in deposit.invenio_rdm.'
+1740143796.653683:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143796.653939:   hermes.model.path:     DEBUG | codemeta: 'Key @type not in codemeta.'
+1740143797.334055:   hermes.model.path:     DEBUG | deposit.invenio_rdm.license: 'Key @type not in deposit.invenio_rdm.license.'
+1740143797.334150:   hermes.model.path:     DEBUG | deposit.invenio_rdm: 'Key @type not in deposit.invenio_rdm.'
+1740143797.334183:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143797.334475:   hermes.model.path:     DEBUG | deposit.invenio_rdm.communities: 'Key @type not in deposit.invenio_rdm.communities.'
+1740143797.334515:   hermes.model.path:     DEBUG | deposit.invenio_rdm: 'Key @type not in deposit.invenio_rdm.'
+1740143797.334544:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143797.334749:   hermes.model.path:     DEBUG | deposit.invenio_rdm.access_right: 'Key @type not in deposit.invenio_rdm.access_right.'
+1740143797.334801:   hermes.model.path:     DEBUG | deposit.invenio_rdm: 'Key @type not in deposit.invenio_rdm.'
+1740143797.334836:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143797.335041:   hermes.model.path:     DEBUG | deposit.invenio_rdm.embargo_date: 'Key @type not in deposit.invenio_rdm.embargo_date.'
+1740143797.335076:   hermes.model.path:     DEBUG | deposit.invenio_rdm: 'Key @type not in deposit.invenio_rdm.'
+1740143797.335103:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143797.335289:   hermes.model.path:     DEBUG | deposit.invenio_rdm.access_conditions: 'Key @type not in deposit.invenio_rdm.access_conditions.'
+1740143797.335324:   hermes.model.path:     DEBUG | deposit.invenio_rdm: 'Key @type not in deposit.invenio_rdm.'
+1740143797.335349:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143797.335545:   hermes.model.path:     DEBUG | deposit.invenio_rdm: 'Key @type not in deposit.invenio_rdm.'
+1740143797.335579:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143797.335780:   hermes.model.path:     DEBUG | codemeta: 'Key @type not in codemeta.'
+1740143797.335986:   hermes.model.path:     DEBUG | deposit.invenio_rdm.depositionMetadata: 'Key @type not in deposit.invenio_rdm.depositionMetadata.'
+1740143797.336023:   hermes.model.path:     DEBUG | deposit.invenio_rdm: 'Key @type not in deposit.invenio_rdm.'
+1740143797.336050:   hermes.model.path:     DEBUG | deposit: 'Key @type not in deposit.'
+1740143799.725466:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='postprocess', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.postprocess.base.HermesPostprocessCommand object at 0x7f9aaad7b910>)
+1740143799.725613:          hermes.cli:     DEBUG | Loading settings...
+1740143799.726514:          hermes.cli:     DEBUG | Update settings from command line...
+1740143799.726558:          hermes.cli:      INFO | Run subcommand postprocess
