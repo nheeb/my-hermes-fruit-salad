@@ -97,7 +97,7 @@ jobs:
       # ADAPT
       # If you want to publish artifacts (e.g., a zipped snapshot of your repository),
       # you can prepare this here.
-      - run: git archive --format zip HEAD src > showcase.zip
+      - run: git archive --format zip HEAD  > showcase.zip
 
       # Run the HERMES deposition and postprocessing steps.
       # ADAPT
