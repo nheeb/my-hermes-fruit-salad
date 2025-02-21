@@ -1,0 +1,83 @@
+1740141805.570364:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='init', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], template_branch='', command=<hermes.commands.init.base.HermesInitCommand object at 0x7b77f3142720>)
+1740141805.570681:          hermes.cli:     DEBUG | Loading settings...
+1740141805.570736:          hermes.cli:     DEBUG | Update settings from command line...
+1740141805.570775:          hermes.cli:      INFO | Run subcommand init
+1740141805.616879:         hermes.init:      INFO | Git project using GitHub detected.
+
+1740141805.617078:         hermes.init:      INFO | Starting to initialize HERMES in /home/n.heeb/Desktop/my-hermes-fruit-salad ...
+1740141805.617166:         hermes.init:      INFO | -- Step 1 of 7: Configure deposition platform and setup method --
+1740141805.617249:         hermes.init:      INFO | Where do you want to publish the software?
+1740142552.949537:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='init', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], template_branch='', command=<hermes.commands.init.base.HermesInitCommand object at 0x7c9246b30590>)
+1740142552.949854:          hermes.cli:     DEBUG | Loading settings...
+1740142552.949906:          hermes.cli:     DEBUG | Update settings from command line...
+1740142552.949946:          hermes.cli:      INFO | Run subcommand init
+1740142552.963583:         hermes.init:      INFO | Git project using GitHub detected.
+
+1740142552.963830:         hermes.init:      INFO | Starting to initialize HERMES in /home/n.heeb/Desktop/my-hermes-fruit-salad ...
+1740142552.963924:         hermes.init:      INFO | -- Step 1 of 7: Configure deposition platform and setup method --
+1740142552.964013:         hermes.init:      INFO | Where do you want to publish the software?
+1740142565.502263:         hermes.init:      INFO | You selected "Zenodo (Sandbox)".
+
+1740142565.502640:         hermes.init:      INFO | How do you want to connect Zenodo (Sandbox) with your GitHub CI?
+1740142588.377805:         hermes.init:      INFO | You selected "Automatically (using OAuth / Device Flow)".
+
+1740142588.378123:         hermes.init:      INFO | -- Step 2 of 7: Configure HERMES behaviour --
+1740142588.378223:         hermes.init:      INFO | When should the automated HERMES process start?
+1740142616.297323:         hermes.init:      INFO | You selected "When I push another branch".
+
+1740142640.452232:         hermes.init:      INFO | Which other folders / files of your root directory should be included in the Zenodo (Sandbox) upload?
+1740142677.331822:         hermes.init:      INFO | You selected "Only src/*".
+
+1740142677.332194:         hermes.init:      INFO | Your upload will consist of the following:
+1740142677.332320:         hermes.init:      INFO | 	Unzipped:
+1740142677.332389:         hermes.init:      INFO | 		README.md
+1740142677.332447:         hermes.init:      INFO | 	Zipped:
+1740142677.332510:         hermes.init:      INFO | 		src
+1740142677.332609:         hermes.init:      INFO | -- Step 3 of 7: Create hermes.toml file --
+1740142677.333261:         hermes.init:      INFO | `hermes.toml` was created.
+1740142677.333385:         hermes.init:      INFO | -- Step 4 of 7: Create CITATION.cff file --
+1740142677.333445:         hermes.init:      INFO | Your project does not contain a `CITATION.cff` file (yet). It would be very helpful for saving important metadata which is necessary for publishing.
+1740142789.992662:         hermes.init:      INFO | Use this website (https://citation-file-format.github.io/cff-initializer-javascript/#/) to create the file. Then move it into the project folder before you continue.
+1740143075.049950:         hermes.init:      INFO | Good job!
+1740143075.050130:         hermes.init:      INFO | -- Step 5 of 7: Create git CI files --
+1740143075.050329:         hermes.init:      INFO | A new `.gitignore` file was created.
+1740143075.059187:         hermes.init:      INFO | Added `.hermes/` to the `.gitignore` file.
+1740143075.473885:         hermes.init:      INFO | GitHub CI: File was created at .github/workflows/hermes_github.yml
+1740143075.474063:         hermes.init:      INFO | -- Step 6 of 7: Connect with deposition platform --
+1740143075.474147:         hermes.init:      INFO | Doing OAuth with Zenodo is currently not available.
+1740143075.474290:         hermes.init:      INFO | Open this link (https://sandbox.zenodo.org/account/settings/applications/tokens/new/) and create an access token.
+1740143075.474338:         hermes.init:      INFO | It needs the scopes "deposit:actions" and "deposit:write".
+1740143191.412634:         hermes.init:      INFO | The token was validated by Zenodo (Sandbox).
+1740143191.412950:         hermes.init:      INFO | -- Step 7 of 7: Connect with git project --
+1740143191.413098:         hermes.init:      INFO | Using Device-Flow to authorize with GitHub
+1740143191.684839:         hermes.init:      INFO | Open https://github.com/login/device and enter this code: 2060-E0F5
+1740143260.188505:         hermes.init:      INFO | OAuth at GitHub was successful.
+1740143260.876289:         hermes.init:      INFO | Secret 'ZENODO_SANDBOX' created/updated successfully.
+1740143261.184919:         hermes.init:      INFO | Project settings updated successfully.
+1740143261.187115:         hermes.init:      INFO | 
+HERMES is now initialized and ready to be used.
+
+1740143385.650407:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='init', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], template_branch='', command=<hermes.commands.init.base.HermesInitCommand object at 0x7b9cb499bd40>)
+1740143385.650764:          hermes.cli:     DEBUG | Loading settings...
+1740143385.650822:          hermes.cli:     DEBUG | Update settings from command line...
+1740143385.650863:          hermes.cli:      INFO | Run subcommand init
+1740143385.665614:         hermes.init:      INFO | Git project using GitHub detected.
+
+1740143385.665812:         hermes.init:   WARNING | The current directory already has a `hermes.toml`. It seems like HERMES was already initialized for this project.
+1740143401.461987:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='init', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], template_branch='', command=<hermes.commands.init.base.HermesInitCommand object at 0x708c9be21dc0>)
+1740143401.462317:          hermes.cli:     DEBUG | Loading settings...
+1740143401.462374:          hermes.cli:     DEBUG | Update settings from command line...
+1740143401.462416:          hermes.cli:      INFO | Run subcommand init
+1740143401.476430:         hermes.init:      INFO | Git project using GitHub detected.
+
+1740143401.476671:         hermes.init:   WARNING | The current directory already has a `hermes.toml`. It seems like HERMES was already initialized for this project.
+1740143404.819950:         hermes.init:      INFO | Starting to initialize HERMES in /home/n.heeb/Desktop/my-hermes-fruit-salad ...
+1740143404.820227:         hermes.init:      INFO | -- Step 1 of 7: Configure deposition platform and setup method --
+1740143404.820345:         hermes.init:      INFO | Where do you want to publish the software?
+1740143405.971727:         hermes.init:      INFO | You selected "Zenodo (Sandbox)".
+
+1740143405.972036:         hermes.init:      INFO | How do you want to connect Zenodo (Sandbox) with your GitHub CI?
+1740143408.892708:         hermes.init:      INFO | You selected "Automatically (using OAuth / Device Flow)".
+
+1740143408.892969:         hermes.init:      INFO | -- Step 2 of 7: Configure HERMES behaviour --
+1740143408.893037:         hermes.init:      INFO | When should the automated HERMES process start?
