@@ -163,3 +163,29 @@ HERMES is now initialized and ready to be used.
 1740147009.110758:         hermes.init:      INFO | It needs the scopes "deposit:actions" and "deposit:write".
 1740147015.771830:         hermes.init:   WARNING | The token could not be validated by Zenodo (Sandbox). Make sure to enter the complete token.
 (If this error persists, you should try switching to the manual setup mode.)
+1740147442.935799:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='harvest', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.harvest.base.HermesHarvestCommand object at 0x7fbe7c9c2e30>)
+1740147442.935942:          hermes.cli:     DEBUG | Loading settings...
+1740147442.936838:          hermes.cli:     DEBUG | Update settings from command line...
+1740147442.936884:          hermes.cli:      INFO | Run subcommand harvest
+1740147443.075402:           audit.cff:      INFO | - Found valid Citation File Format file at: CITATION.cff
+1740147443.543190:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='process', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.process.base.HermesProcessCommand object at 0x7f28fff77700>)
+1740147443.543342:          hermes.cli:     DEBUG | Loading settings...
+1740147443.544218:          hermes.cli:     DEBUG | Update settings from command line...
+1740147443.544280:          hermes.cli:      INFO | Run subcommand process
+1740147443.544424:      hermes.process:      INFO | ## Process data from cff
+1740147443.545124:   hermes.model.path:     DEBUG | @context: 'Key @type not in @context.'
+1740147443.545380:   hermes.model.path:     DEBUG | @type: 'Key @type not in @type.'
+1740147443.545703:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author.
+1740147443.545876:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].
+1740147443.546064:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].@type.
+1740147443.546405:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].familyName.
+1740147443.546722:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from author[0].givenName.
+1740147443.546974:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from license.
+1740147443.547168:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from name.
+1740147443.547577:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from @context.
+1740147443.547870:   hermes.model.path:     DEBUG | Using type SoftwareSourceCode from @type.
+1740147444.004989:          hermes.cli:     DEBUG | Running hermes with the following command line arguments: Namespace(subcommand='curate', path=PosixPath('.'), config=PosixPath('hermes.toml'), options=[], command=<hermes.commands.curate.base.HermesCurateCommand object at 0x7f7bf4e3f9d0>)
+1740147444.005128:          hermes.cli:     DEBUG | Loading settings...
+1740147444.006035:          hermes.cli:     DEBUG | Update settings from command line...
+1740147444.006081:          hermes.cli:      INFO | Run subcommand curate
+1740147444.006182:       hermes.curate:      INFO | # Metadata curation
